@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid-Ul-Adha • Ultra Cinematic Celebration</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="An interactive, ultra-cinematic 8K experience celebrating Eid-Ul-Adha with hyper-realistic particle physics, customizable wishing cards, and luxurious Islamic aesthetics.">
+    <meta name="keywords" content="Eid-Ul-Adha, Eid Mubarak, Cinematic Eid, Islamic Art, Antigravity Physics, Greeting Card Generator">
+    <meta name="author" content="MDADILIFTEKHAR">
+    
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Background Antigravity Canvas Physics -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Cinematic Volumetric Light Overlay -->
+    <div class="volumetric-glow"></div>
+    <div class="cinematic-dust"></div>
+    <div class="film-grain"></div>
+    <div class="anamorphic-flare"></div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header">
+        <div class="logo">
+            <span class="arabic-embellish">✨</span>
+            <h1>EID <span>CINEMATIQUE</span></h1>
+            <span class="arabic-embellish">✨</span>
+        </div>
+        
+        <div class="nav-actions">
+            <!-- Soundscape Ambient Synth & Visualizer -->
+            <button id="soundscape-btn" class="nav-btn" aria-label="Toggle Cinematic Soundtrack">
+                <i class="fa-solid fa-volume-xmark"></i>
+                <span>Soundscape</span>
+                <canvas id="visualizer"></canvas>
+            </button>
+            <a href="#card-creator-section" class="nav-btn highlight-btn">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Create Wish</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Page Container -->
+    <main class="cinematic-container">
+        
+        <!-- INTRO HERO BLOCK -->
+        <section class="hero-block">
+            <h2 class="sub-title">A Premium Islamic Celebration Experience</h2>
+            <h1 class="main-title">EID-UL-ADHA</h1>
+            <p class="tagline">Immerse yourself in a luxurious golden sunset transition celebrating family, devotion, and community unity through Unreal Engine 5 visual aesthetics.</p>
+            <div class="glow-separator"><span></span></div>
+        </section>
+
+        <!-- CINEMATIC VIEWER (THE DIRECTOR'S SUITE) -->
+        <section class="viewer-section">
+            <div class="viewer-container">
+                <!-- Cinema Screen Viewport -->
+                <div id="cinema-screen" class="cinema-screen camera-handheld view-wide">
+                    <!-- Foreground Viewport Canvas for Saffron Steam, Silk & Zero-G Spices -->
+                    <canvas id="cinema-canvas"></canvas>
+                    
+                    <!-- Volumetric Lens Flare Overlay -->
+                    <div class="lens-flare"></div>
+                    <div class="cinema-letterbox top"></div>
+                    <div class="cinema-letterbox bottom"></div>
+
+                    <!-- Slide 1: Secret Preparation -->
+                    <div class="cinema-slide active" data-slide="0" style="background-image: url('assets/family_arrival.png'); filter: brightness(0.55) contrast(1.2);">
+                        <div class="slide-overlay">
+                            <div class="narrative-box">
+                                <span class="scene-num">Scene I</span>
+                                <h3 class="scene-title">The Secret Prep</h3>
+                                <p class="scene-desc">Quiet planning and heart-touching excitement. Friends secretly decorating the luxury Islamic courtyard under a soft sunset glow as children hide behind curtains, planning a massive unforgettable Eid surprise.</p>
+                                <div class="scene-tags">
+                                    <span><i class="fa-solid fa-user-secret"></i> Secret Planning</span>
+                                    <span><i class="fa-solid fa-moon"></i> Dim Glow</span>
+                                    <span><i class="fa-solid fa-users"></i> Secret Decor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Grand Surprise Entry -->
+                    <div class="cinema-slide" data-slide="1" style="background-image: url('assets/family_arrival.png'); filter: brightness(1.22) contrast(1.08);">
+                        <div class="slide-overlay" style="background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(229,169,59,0.12) 60%, transparent 100%);">
+                            <div class="narrative-box">
+                                <span class="scene-num">Scene II</span>
+                                <h3 class="scene-title">Grand Surprise Reveal</h3>
+                                <p class="scene-desc">The doors sweep open. Camera zooms in on the loved one's shocked face as golden lights suddenly flash on, skyward lanterns rise, and everyone shouts 'Eid Mubarak!' under an explosion of colorful confetti.</p>
+                                <div class="scene-tags">
+                                    <span><i class="fa-solid fa-door-open"></i> Surprise Entry</span>
+                                    <span><i class="fa-solid fa-gift"></i> Confetti Storm</span>
+                                    <span><i class="fa-solid fa-bolt"></i> Light Flash</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Emotional Celebration -->
+                    <div class="cinema-slide" data-slide="2" style="background-image: url('assets/feast_dinner.png');">
+                        <div class="slide-overlay">
+                            <div class="narrative-box">
+                                <span class="scene-num">Scene III</span>
+                                <h3 class="scene-title">Tears of Happiness</h3>
+                                <p class="scene-desc">Tears of absolute joy and warm embraces. Family gathers around a royal banquet loaded with steaming saffron biryani, succulently grilled kebabs, dates, and bowls of sheer khurma under golden candlelight.</p>
+                                <div class="scene-tags">
+                                    <span><i class="fa-solid fa-face-smile-beam"></i> Tears of Joy</span>
+                                    <span><i class="fa-solid fa-utensils"></i> Macro Feast</span>
+                                    <span><i class="fa-solid fa-heart"></i> Warm Hugs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4: Climax Skyward Finale -->
+                    <div class="cinema-slide" data-slide="3" style="background-image: url('assets/fireworks_celebration.png');">
+                        <div class="slide-overlay">
+                            <div class="narrative-box">
+                                <span class="scene-num">Scene IV</span>
+                                <h3 class="scene-title">Moonlit Climax Finale</h3>
+                                <p class="scene-desc">The ultimate grand finale. A majestic crescent moon hangs above the mosque silhouette as a skyward lantern release and multi-colored firework festival boom in synchronization with epic orchestral music.</p>
+                                <div class="scene-tags">
+                                    <span><i class="fa-solid fa-fireworks"></i> Grand Fireworks</span>
+                                    <span><i class="fa-solid fa-feather"></i> Glowing Calligraphy</span>
+                                    <span><i class="fa-solid fa-star"></i> Lantern Release</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DIRECTOR'S CONTROLLER HUB -->
+                <div class="director-panel">
+                    <div class="panel-section header-section">
+                        <div class="panel-title">
+                            <i class="fa-solid fa-clapperboard text-gold"></i>
+                            <h4>DIRECTOR'S CONTROLS</h4>
+                        </div>
+                        <div class="playback-controls">
+                            <button id="prev-scene-btn" class="ctrl-btn-square" aria-label="Previous Scene">
+                                <i class="fa-solid fa-backward"></i>
+                            </button>
+                            <button id="play-pause-btn" class="ctrl-btn-square active" aria-label="Play/Pause Story">
+                                <i class="fa-solid fa-pause"></i>
+                            </button>
+                            <button id="next-scene-btn" class="ctrl-btn-square" aria-label="Next Scene">
+                                <i class="fa-solid fa-forward"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="panel-grid">
+                        <!-- Camera Angle Emulators -->
+                        <div class="panel-card">
+                            <label><i class="fa-solid fa-video text-gold"></i> CAMERA VIEWPORT</label>
+                            <div class="camera-btn-group">
+                                <button class="cam-btn active" data-view="handheld">
+                                    <i class="fa-solid fa-hand-holding"></i> Handheld
+                                </button>
+                                <button class="cam-btn" data-view="drone">
+                                    <i class="fa-solid fa-helicopter"></i> Drone Zoom
+                                </button>
+                                <button class="cam-btn" data-view="orbit">
+                                    <i class="fa-solid fa-arrows-spin"></i> 360° Orbit
+                                </button>
+                                <button class="cam-btn" data-view="wide">
+                                    <i class="fa-solid fa-expand"></i> IMAX Wide
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Physics & Time Speed -->
+                        <div class="panel-card">
+                            <div class="slider-header">
+                                <label><i class="fa-solid fa-gauge-high text-gold"></i> TIME DILATION (SLOW-MO)</label>
+                                <span id="speed-indicator">1.0x</span>
+                            </div>
+                            <div class="range-container">
+                                <i class="fa-solid fa-snowflake text-soft"></i>
+                                <input type="range" id="speed-slider" min="0.1" max="2.0" step="0.1" value="1.0">
+                                <i class="fa-solid fa-bolt text-gold"></i>
+                            </div>
+                            <p class="slider-helper">Controls the velocity of fabric, floating rose petals, and rising lanterns.</p>
+                        </div>
+
+                        <!-- Visual Physic Toggles -->
+                        <div class="panel-card toggle-grid">
+                            <button id="toggle-lanterns" class="toggle-btn active">
+                                <i class="fa-solid fa-lightbulb"></i> Floating Lanterns
+                            </button>
+                            <button id="toggle-petals" class="toggle-btn active">
+                                <i class="fa-solid fa-leaf"></i> Rose Petals
+                            </button>
+                            <button id="toggle-sparks" class="toggle-btn active">
+                                <i class="fa-solid fa-bahai"></i> Sparks & Fog
+                            </button>
+                            <button id="toggle-interactive" class="toggle-btn active">
+                                <i class="fa-solid fa-arrow-pointer"></i> Mouse Physics
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI CINEMATIQUE OPTIMIZATION ENGINE CONSOLE -->
+                <div class="ai-console-panel glass-card">
+                    <div class="panel-section header-section">
+                        <div class="panel-title">
+                            <i class="fa-solid fa-microchip text-gold pulsing-icon"></i>
+                            <h4>AI CINEMATIQUE ENGINE</h4>
+                        </div>
+                        <div class="ai-status-badge">
+                            <span class="pulse-dot"></span>
+                            <span id="ai-engine-status">ACTIVE ENGINE</span>
+                        </div>
+                    </div>
+
+                    <div class="panel-grid">
+                        <!-- AI Color Grading Preset -->
+                        <div class="panel-card">
+                            <label><i class="fa-solid fa-sliders text-gold"></i> AI CINEMATIC COLOR GRADING</label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-palette"></i>
+                                <select id="ai-color-grade">
+                                    <option value="emerald-gold">Royal Emerald & Gold (Original)</option>
+                                    <option value="midnight-sapphire">Midnight Sapphire & White Gold</option>
+                                    <option value="sunset-amber">Sunset Amber & Rose Gold</option>
+                                    <option value="netflix-film">Netflix Documentary Cinema</option>
+                                    <option value="cyber-islamic">Cyber-Islamic Neon Light</option>
+                                </select>
+                            </div>
+                            <p class="slider-helper">Applies customized 3D lookup tables (LUTs) for rich volumetric highlights.</p>
+                        </div>
+
+                        <!-- Graphic & Render Settings Toggle Grid -->
+                        <div class="panel-card toggle-grid">
+                            <button id="toggle-raytracing" class="toggle-btn active">
+                                <i class="fa-solid fa-circle-nodes"></i> Ray Tracing
+                            </button>
+                            <button id="toggle-fog" class="toggle-btn active">
+                                <i class="fa-solid fa-cloud"></i> Volumetric Fog
+                            </button>
+                            <button id="toggle-beatsync" class="toggle-btn active">
+                                <i class="fa-solid fa-music"></i> Beat-Sync Pulse
+                            </button>
+                            <button id="toggle-illumination" class="toggle-btn active">
+                                <i class="fa-solid fa-circle-half-stroke"></i> Global Illum
+                            </button>
+                        </div>
+
+                        <!-- System Telemetry & AI Status -->
+                        <div class="panel-card telemetry-card">
+                            <div class="telemetry-item">
+                                <span>Scene Detection:</span>
+                                <strong id="scene-detection-val">SPIRITUAL REUNION</strong>
+                            </div>
+                            <div class="telemetry-item">
+                                <span>Rendering Engine Speed:</span>
+                                <strong id="fps-val">60.0 FPS</strong>
+                            </div>
+                            <div class="telemetry-item">
+                                <span>Simulated GPU Load:</span>
+                                <strong id="gpu-val">24%</strong>
+                            </div>
+                            <div class="telemetry-item">
+                                <span>Antigravity Particles:</span>
+                                <strong id="particle-count-val">120 / 300</strong>
+                            </div>
+                            <div class="telemetry-item director-feed-item">
+                                <span>AI Director Log:</span>
+                                <strong id="ai-director-log">SYSTEM INITIALIZED. WAITING FOR CAMERAS...</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ULTIMATE FINAL CLIMAX SEQUENCE TRIGGER -->
+                    <div class="climax-trigger-container">
+                        <button id="climax-trigger-btn" class="climax-btn">
+                            <div class="btn-glow"></div>
+                            <i class="fa-solid fa-fireworks"></i>
+                            <span>ACTIVATE FINAL EID CELEBRATION CLIMAX</span>
+                            <i class="fa-solid fa-bahai"></i>
+                        </button>
+                        <p class="climax-helper">Triggers a majestic fireworks grand finale, launches the floating lantern flotilla, blooms golden Arabic calligraphy, and builds an epic orchestral climax!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LUXURIOUS CREATIVE WORKSHOP (WISHING CARD GENERATOR) -->
+        <section id="card-creator-section" class="card-creator-section">
+            <div class="glow-separator-top"></div>
+            
+            <div class="section-header text-center">
+                <span class="badge">Celebration Craft</span>
+                <h2>LUXURY EID GREETING WORKSHOP</h2>
+                <p>Design a stunning, personalized cinematic greeting card wrapped in digital gold calligraphy and real-time animated fireworks to send to your friends and loved ones.</p>
+            </div>
+
+            <div class="workshop-layout">
+                <!-- Control Workshop Panel -->
+                <div class="workshop-controls glass-card">
+                    <h3>Configure Card Aesthetics</h3>
+                    
+                    <div class="form-group">
+                        <label for="recipient-name">Recipient Name</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="recipient-name" placeholder="Enter recipient's name..." maxlength="25">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="card-blessing">Select Eid Blessing</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <select id="card-blessing">
+                                <option value="May the divine blessings of Eid-Ul-Adha fill your home with absolute peace, prosperous joy, and divine harmony.">Standard Blessings</option>
+                                <option value="On this sacred festival of Eid-Ul-Adha, may your prayers be answered, your sacrifices accepted, and your heart filled with spiritual bliss.">Spiritual & Devout</option>
+                                <option value="Taqabbalallahu Minna wa Minkum. May the blessings of Eid shine upon you and your family today and always. Eid Mubarak!">Traditional & Classic</option>
+                                <option value="Warmest hugs and blissful wishes! Sending you a feast of joy, children's laughter, and gorgeous fireworks this blessed Eid.">Warm & Cheerful</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Luxury Theme Palette</label>
+                        <div class="theme-picker">
+                            <button class="theme-color active" data-theme="emerald" style="background: linear-gradient(135deg, #014421, #062b18);" title="Emerald & Royal Gold"></button>
+                            <button class="theme-color" data-theme="sapphire" style="background: linear-gradient(135deg, #0a1931, #15305b);" title="Sapphire & White Gold"></button>
+                            <button class="theme-color" data-theme="ruby" style="background: linear-gradient(135deg, #440118, #2a010d);" title="Ruby & Rose Gold"></button>
+                            <button class="theme-color" data-theme="onyx" style="background: linear-gradient(135deg, #111111, #222222);" title="Midnight Onyx & Rich Gold"></button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Animated Features</label>
+                        <div class="card-toggle-group">
+                            <button id="card-toggle-fireworks" class="card-sub-toggle active">
+                                <i class="fa-solid fa-fireworks"></i> Fireworks
+                            </button>
+                            <button id="card-toggle-glow" class="card-sub-toggle active">
+                                <i class="fa-solid fa-sun"></i> Holographic Glow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="download-card-btn" class="action-btn download-btn">
+                            <i class="fa-solid fa-download"></i> Download Premium Card
+                        </button>
+                        <button id="share-card-btn" class="action-btn share-btn">
+                            <i class="fa-solid fa-copy"></i> Copy Shareable Message
+                        </button>
+                    </div>
+                    <div id="status-toast" class="status-toast">Link copied to clipboard successfully!</div>
+                </div>
+
+                <!-- Live Card Preview Workspace -->
+                <div class="card-preview-container">
+                    <div class="card-screen-glass">
+                        <span class="preview-label">Live Cinema Preview</span>
+                        
+                        <!-- Main Card -->
+                        <div id="wishing-card" class="wishing-card theme-emerald">
+                            <!-- Card Canvas for Fireworks and Shimmer overlays -->
+                            <canvas id="card-fx-canvas"></canvas>
+                            
+                            <!-- Card Content Wrapper -->
+                            <div class="card-inner">
+                                <div class="card-gold-frame"></div>
+                                <div class="card-accent-top">🌙  🕌  ⭐</div>
+                                
+                                <div class="card-body">
+                                    <div class="arabic-calligraphy">عيد مبارك</div>
+                                    <h4 class="card-salutation">Eid Mubarak</h4>
+                                    
+                                    <div class="recipient-display" id="preview-recipient">Dear Blessed One,</div>
+                                    <p class="blessing-display" id="preview-blessing">May the divine blessings of Eid-Ul-Adha fill your home with absolute peace, prosperous joy, and divine harmony.</p>
+                                </div>
+                                
+                                <div class="card-accent-bottom">With Warmest Respects & Love</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LUXURIOUS FOOTER -->
+        <footer class="main-footer">
+            <div class="footer-glow"></div>
+            <div class="footer-logo">
+                <h2>EID CINEMATIQUE</h2>
+                <p>Bringing spiritual elegance and volumetric light to your festive celebrations.</p>
+            </div>
+            <div class="footer-links">
+                <p>Designed with absolute dedication and modern GPU graphics physics.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Share on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Share on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Share on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 MDADILIFTEKHAR. All Rights Reserved. Crafted for Eid-Ul-Adha.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Custom Script File -->
+    <script src="app.js"></script>
+</body>
+</html>
